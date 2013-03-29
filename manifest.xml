@@ -1,16 +1,17 @@
 <package>
-  <description brief="turtlebot_navigation">
+  <description brief="eddiebot_navigation">
 
-     turtlebot_navigation
+     eddiebot_navigation
 
   </description>
-  <author>Tully Foote</author>
+  <author>Philip Sterling</author>
   <license>BSD</license>
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/turtlebot_navigation</url>
+  
   <depend package="move_base"/>
   <depend package="gmapping"/>
-  <depend package="turtlebot_bringup"/>
+  <depend package="eddiebot_bringup"/>
 </package>
 
 
