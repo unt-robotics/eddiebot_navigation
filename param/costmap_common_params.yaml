@@ -8,7 +8,7 @@ observation_sources: scan
 scan: {data_type: LaserScan, topic: /scan, marking: true, clearing: true}
 
 # Current bump cloud configuration
-bump: {data_type: PointCloud2, topic: mobile_base/sensors/bumper_pointcloud, marking: true, clearing: false}
+# bump: {data_type: PointCloud2, topic: mobile_base/sensors/bumper_pointcloud, marking: true, clearing: false}
 
 # These were for the create, but I think weren't getting used. 
 # Can we merge to a common configuration - DJS?
