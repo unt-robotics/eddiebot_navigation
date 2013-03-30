@@ -5,8 +5,8 @@
     <arg name="depth_processing" value="false" />
   </include>
 
-  <include file="$(find turtlebot_navigation)/launch/includes/_gmapping.launch"/>
+  <include file="$(find eddiebot_navigation)/launch/includes/_gmapping.launch"/>
 
-  <include file="$(find turtlebot_navigation)/launch/includes/_move_base.launch"/>
+  <include file="$(find eddiebot_navigation)/launch/includes/_move_base.launch"/>
 
 </launch>
