@@ -1,6 +1,5 @@
 <launch>
-  <include file="$(find eddiebot_bringup)/kinect_test.launch">
-    <arg name="depth_registration" value="false" />
+  <include file="$(find eddiebot_bringup)/kinect.launch">
   </include>
 
   <include file="$(find eddiebot_navigation)/launch/includes/_gmapping.launch"/>
